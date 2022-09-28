@@ -1,0 +1,21 @@
+.product{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 45px;
+}
+.shopping-product{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ; 
+    grid-gap: 45px;
+    margin-left: 45px ;
+}
+.shopping-cart{
+
+  background-color:  rgba(255, 153, 0, 0.3);
+}
+
+@media screen and  (max-width: 1100px) {
+    .shopping-product{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}

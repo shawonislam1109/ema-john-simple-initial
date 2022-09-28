@@ -1,0 +1,23 @@
+.cart{
+    position: sticky;
+    top: 0;
+    padding: 30px 30px;
+}
+.clear-btn{
+    display: block;
+    margin-top: 57px;
+    width: 232px;
+    height: 48px;
+    background-color: #FF3030;
+    color: #FFFFFF;
+    border: none;
+}
+.review-btn{
+    display: block;
+    margin-top: 16px;
+    width: 232px;
+    height: 48px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border: none;
+}
